@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+}
+
+#playWindow {
+	position: relative;
+	display: flex; /*flex box for the gameplay */
+	justify-content: center;
+}
+
+#playArea {
+	position: relative;
+    width: 720px;
+	height: 576px;
+	border: solid green 2px; 
+}
+
+#scoreContainer {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	text-align: left;
+	font-size: 1.5em;
+	z-index: 30; /* keep text underneath other elements */
+}
+
+.score {
+	padding: 10px;
+}
+.ship {
+	background-image: url('https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-spaceship-gaming-kiranshastry-lineal-kiranshastry.png');
+	width: 49px;
+	height: 37px;
+	top: 400px;
+	left: 360px;
+	position: absolute;
+	z-index: 10;
+}
