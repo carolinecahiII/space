@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
+.grid-container {
+    text-align: center; 
+}
+
+.results {
+    margin-bottom: 10px; 
+}
+
+.grid {
+    width: 600px; 
+    height: 600px; 
+    border: solid green 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('./images/trin2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.grid div {
+    width: 40px; 
+    height: 40px; 
+}
+
+.invader {
+    background-image: url('images/seagull2.png');
+    background-size: cover;
+    width: 80px; 
+    height: 40px; 
+}
+
+.shooter {
+    background-image: url('images/player.png');
+    background-size: cover;
+    width: 40px; 
+    height: 40px; 
+}
+
+.laser {
+    background-image: url('images/croissant.png');
+    width: 20px; 
+    height: 20px; 
+	background-size: cover;
+}
+
+.boom {
+    background-color: red;
+}
